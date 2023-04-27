@@ -1,0 +1,58 @@
+.feedbackContainer {
+  width: 400px;
+  height: 330px;
+  text-align: center;
+  border: 1px rgb(4, 74, 118) solid;
+  border-radius: 5px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.emojiBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  width: 60px;
+  height: 60px;
+  /* border: 1px rgb(4, 74, 118) solid; */
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: rgba(4, 74, 118, 0.1);
+  opacity: 0.5;
+  transition: 250ms;
+}
+.emojiBtn:hover,
+.emojiBtn:focus,
+.emojiBtn:active {
+  opacity: 1;
+}
+.feedbackList {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 0;
+}
+.statList {
+  display: flex;
+  justify-content: space-around;
+}
+.totalStats {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  text-align: center;
+  /* border: 1px rgb(4, 74, 118) solid; */
+  background-color: rgba(4, 74, 118, 0.1);
+  border-radius: 5px;
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.message {
+  margin-top: 50px;
+}
