@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import css from '../../css/Widget.module.css';
 
 export const Section = ({ title, children }) => {
   return (
